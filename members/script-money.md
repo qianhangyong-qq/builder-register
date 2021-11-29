@@ -15,3 +15,4 @@ using System.Linq;
 var sum = Enumerable.Range(1, 100).Select(i => Math.Pow((double)i, 3) - Math.Cbrt(i)).Sum();
 Console.WriteLine(sum); // 25502149.836096782
 ```
+ 
